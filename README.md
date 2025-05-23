@@ -11,6 +11,30 @@ pip install -r requirements.txt
 
 ---
 
+## Dataset (EBFormer 2025)
+
+The training / evaluation data used in the EBFormer NeurIPS 2025 submission is hosted on Zenodo:
+[**➡ Download Dataset on Zenodo**](https://zenodo.org/records/15493561?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjgwNTRiOWM0LTk1ZTItNDZkNi04YzFkLTk3OWExNjcxNDYwYyIsImRhdGEiOnt9LCJyYW5kb20iOiIwNzMyZDAzYzQxZGViMDgzOTdmY2EwNWFmMTBkNzA2NyJ9.5afkHSH6Vnf3Up98xW8lH6MNgCuMGqRfWWPiPVohU0e_iHdSDRqMh4rQhPhGb8Ve3YkXTGaU7pa123Dgxv-1_g)
+
+*The Zenodo page also includes a information regarding dataset format and structure. 
+Once downloaded, place the extracted directory inside `NonlocalNNModels/Data/`.*
+
+---
+
+## Directory Layout
+```
+nequip (local version)
+NonlocalNNModels/
+├── configs/            # YAML config files
+├── Data/               # your datasets (see below)
+└── NonlocalNN/
+    ├── scripts/
+    │   ├── train.py
+    │   └── test.py
+    └── …               # model code
+```
+---
+
 ## Training a Model
 1. **Navigate** to the project root (`NonlocalNNModels`).
 2. **Run** the training script with your chosen YAML configuration:
@@ -29,28 +53,4 @@ pip install -r requirements.txt
    ```bash
    python3 NonlocalNN/scripts/test.py
    ```
----
-
-## Directory Layout
-```
-nequip
-NonlocalNNModels/
-├── configs/            # YAML config files
-├── Data/               # your datasets (see below)
-└── NonlocalNN/
-    ├── scripts/
-    │   ├── train.py
-    │   └── test.py
-    └── …               # model code
-```
----
-
-## Dataset (EBFormer 2025)
-
-The exact training / evaluation data used in the EBFormer NeurIPS 2025 submission is hosted on Zenodo:
-[**➡ Download Dataset on Zenodo**](https://zenodo.org/records/15493561?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjgwNTRiOWM0LTk1ZTItNDZkNi04YzFkLTk3OWExNjcxNDYwYyIsImRhdGEiOnt9LCJyYW5kb20iOiIwNzMyZDAzYzQxZGViMDgzOTdmY2EwNWFmMTBkNzA2NyJ9.5afkHSH6Vnf3Up98xW8lH6MNgCuMGqRfWWPiPVohU0e_iHdSDRqMh4rQhPhGb8Ve3YkXTGaU7pa123Dgxv-1_g)
-
-*The Zenodo page also includes a information regarding dataset format and structure. 
-Once downloaded, place the extracted directory inside `NonlocalNNModels/Data/`.*
-
 ---
