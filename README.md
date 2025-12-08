@@ -42,7 +42,7 @@ NonlocalNNModels/
    python3 NonlocalNN/scripts/train.py configs/<desired_config>.yaml --warn-unused
    ```
    > **Configs**  
-   > All example configs—including those used in the *EBFormer* NeurIPS 2025 submission—are to be placed in `configs/`.  
+   > All example configs—including those used in the *EBFormer* ICLR 2026 submission—are to be placed in `configs/`.  
 
 ---
 
