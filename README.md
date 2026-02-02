@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 ## Dataset (EBFormer 2025)
 
-The training / evaluation data used in the EBFormer ICLR 2026 submission is hosted on Zenodo:
+The training / evaluation data used in the EBFormer ICLR AI4MAT 2026 submission is hosted on Zenodo:
 [**Download Dataset on Zenodo**](https://zenodo.org/records/17197896?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjgwNTRiOWM0LTk1ZTItNDZkNi04YzFkLTk3OWExNjcxNDYwYyIsImRhdGEiOnt9LCJyYW5kb20iOiIwNzMyZDAzYzQxZGViMDgzOTdmY2EwNWFmMTBkNzA2NyJ9.5afkHSH6Vnf3Up98xW8lH6MNgCuMGqRfWWPiPVohU0e_iHdSDRqMh4rQhPhGb8Ve3YkXTGaU7pa123Dgxv-1_g)
 
 *The Zenodo page also includes a information regarding dataset format and structure. 
@@ -42,7 +42,7 @@ NonlocalNNModels/
    python3 NonlocalNN/scripts/train.py configs/<desired_config>.yaml --warn-unused
    ```
    > **Configs**  
-   > All example configs—including those used in the *EBFormer* ICLR 2026 submission—are to be placed in `configs/`.  
+   > All example configs—including those used in the *EBFormer* ICLR AI4MAT 2026 submission—are to be placed in `configs/`.  
 
 ---
 
